@@ -247,6 +247,7 @@ struct apriltag_detection
     double p[4][2];
 };
 
+
 // don't forget to add a family!
 apriltag_detector_t *apriltag_detector_create();
 
