@@ -1,4 +1,4 @@
-﻿#pragma comment(lib, "apriltag_UAP_x86_Debug.lib")
+﻿// #pragma comment(lib, "apriltag_UAP_x86_Debug.lib")
 
 #include "pch.h"
 #include <iostream>

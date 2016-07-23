@@ -6,6 +6,8 @@
 #include "pch.h"
 #include "MainPage.xaml.h"
 
+// #include "AprilTagsCppUniversalDll.h"
+
 using namespace AprilTagsCppTestApp;
 
 using namespace Platform;
@@ -24,4 +26,8 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
+
+
+
+
 }
