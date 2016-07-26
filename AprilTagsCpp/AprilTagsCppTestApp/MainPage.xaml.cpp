@@ -6,6 +6,13 @@
 #include "pch.h"
 #include "MainPage.xaml.h"
 
+// ???
+// This is very strange, including "Class1.h" here will throw "type redefinition" error
+// #include "Class1.h"
+
+#include "AprilTagsCppUniversalDll.h"
+
+
 using namespace AprilTagsCppTestApp;
 
 using namespace Platform;
@@ -24,4 +31,15 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
+
+
+	// Testing...
+	TestAprilTagMethods();
+
+
+	// Testing...
+	AprilTagsCppRuntimeComponent::Class1^ cl1 = ref new AprilTagsCppRuntimeComponent::Class1();
+	cl1->TestAprilTag1();
+
+
 }
